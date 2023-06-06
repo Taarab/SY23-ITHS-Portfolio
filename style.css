@@ -1,0 +1,81 @@
+#doritos:hover{
+    color:pink;
+    
+}
+
+#doritos:active::after{
+    content:": $2";
+}
+
+ 
+a {
+  text-decoration: none;
+  color:white;
+}
+
+p{
+    font-size:20px;
+    color:purple;
+}
+ .quote{
+     margin-left:50px;
+     font-style:italic;
+     font-size:20px;
+    font-family:arial;
+    }
+ #bar{
+    background-color:orange;
+    padding:20px;
+    text-align:center;
+    border-style: double;
+            
+ }
+         
+ul li{
+   
+    margin-left:20px;
+    margin-right:20px;
+    display:inline;
+        text-decoration:none;
+    color:white;
+}
+
+
+body{
+    background-color:;
+}
+
+
+.oreo{
+    width:1000px;
+    height:100px;
+}
+  
+  
+  
+  #snack:hover{
+       animation: snack 3s forwards;
+  }
+ 
+ @keyframes snack{
+     from{
+     width:250px;
+     height:250px;
+     }
+ 
+       to{
+width:500px;
+height:500px;
+ repeat:4times;
+       }
+     
+ }
+ 
+ 
+ 
+     display:inline;
+ 
+ 
+  display:block;
+ margin-left:auto;
+ margin-right:auto;
